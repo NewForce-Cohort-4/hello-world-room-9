@@ -43,16 +43,22 @@ nav ul li {
     padding: 0px;
     list-style-type: none;
     font-size: 20px;
-    border: 1px solid black;
     background-color:rgb(36, 83, 238);
     margin: 20px;
+    flex-basis: 8%;
+    text-align: center;
+    border-radius: 10px;
 
 }
 
 nav ul :hover {
-    background-color: rgba(127, 62, 211, 0.801);
+    background-color:purple;
 }
 
+.current {
+    background-color: purple;
+    
+}
 a{
     text-decoration: none;
     color: white;
